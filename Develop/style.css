@@ -3,6 +3,10 @@ body {
   font-size: 16px;
 }
 
+#confirm-appointment{
+  display: none;
+}
+
 textarea {
   background: transparent;
   border: none;

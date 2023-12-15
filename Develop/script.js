@@ -5,7 +5,7 @@ var today = dayjs();
 var hour = dayjs().format("H");
 var allWorkDayHours = $("#main-container").children();
 var saveButton = $("button")
-
+var confirm = $("#confirm-appointment");
 var userSchedule = {
   scheduleHour : [],
   scheduleText : []
@@ -74,6 +74,7 @@ function displayEvents(){
 function storeInfo(){
   localStorage.setItem("hour", JSON.stringify(userSchedule.scheduleHour));
   localStorage.setItem("text", JSON.stringify(userSchedule.scheduleText));
+  confirm.css("display", "block");
 }
 
 
