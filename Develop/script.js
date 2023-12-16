@@ -71,8 +71,6 @@ function displayEvents(){
     textBox.text(theText);
   }
 }
-  //
-  // TODO: Add code to display the current date in the header of the page.
 });
 
 // Stores the text and which time block it was in
