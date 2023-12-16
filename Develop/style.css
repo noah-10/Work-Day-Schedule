@@ -61,3 +61,10 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+/* When on a small screen the hour font size decreases */
+@media screen and (max-width: 320px){
+  .hour{
+    font-size: 75%;
+  }
+}
