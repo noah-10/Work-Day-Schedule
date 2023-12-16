@@ -18,6 +18,10 @@
 
 - The time blocks are color coordinated to make it easier for the user to see upcoming, past and present events.
 
+## Sources
+
+- Starter code can be found by this [link](https://github.com/coding-boot-camp/crispy-octo-meme)
+
 ## Usage
 
 - The application can be viewed by this [link](https://noah-10.github.io/Work-Day-Schedule/)
